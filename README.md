@@ -15,6 +15,7 @@ Java-exercises-and-tests/
 |
 |_ LICENSE
 |_ README.md
+|_ Classificar.java
 ```
 
 ## Author
