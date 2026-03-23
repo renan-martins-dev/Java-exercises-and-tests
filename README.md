@@ -15,7 +15,10 @@ Java-exercises-and-tests/
 |
 |_ LICENSE
 |_ README.md
-|_ Classificar.java
+|_ Exercises
+    |_ Exercise01Classificate.java
+    |_ Exercise02DataInput.java
+    |_ Exercise03BankAccountSimulator.java
 ```
 
 ## Author

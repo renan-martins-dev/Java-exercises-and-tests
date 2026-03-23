@@ -1,7 +1,7 @@
-import java.io.StringReader;
+package Exercises;
 import java.util.Scanner;
 
-public class SimuladorCaixaEletronico {
+public class Exercise03BankAccountSimulator {
     public static void main (String[] args) {
         Scanner scanner = new Scanner (System.in);
         int Tentativas = 0;
@@ -9,15 +9,14 @@ public class SimuladorCaixaEletronico {
         char opc;
         double Saldo;
         do {
-        Tentativas++;
-        if (Tentativas > 3) {
-            System.out.print("\nACESSO BLOQUEADO");
-            scanner.close();
-            return;
+            Tentativas++;
+            if (Tentativas > 3) {
+                System.out.print("\nACESSO BLOQUEADO");
+                scanner.close();
+                return;
             }
-        System.out.print("\n Digite a senha: ");
-        Senha = scanner.next();
-        System.out.print("\""+Senha+"\"");
+            System.out.print("\n Digite a senha: ");
+            Senha = scanner.next();
         } while (!Senha.equals("9999"));
         Saldo = 0;
         do {
