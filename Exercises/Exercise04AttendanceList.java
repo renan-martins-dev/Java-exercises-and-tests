@@ -1,6 +1,7 @@
+package Exercises;
 import java.util.Scanner;
 
-public class ListaDePresenca {
+public class Exercise04AttendanceList {
     public static void main(String[] args) {
         int QuantidadeAlunos = 5;
         ExibirListaDePresenca(SolicitarNomes(QuantidadeAlunos));

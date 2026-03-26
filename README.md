@@ -19,6 +19,8 @@ Java-exercises-and-tests/
     |_ Exercise01Classificate.java
     |_ Exercise02DataInput.java
     |_ Exercise03BankAccountSimulator.java
+    |_ Exercise04AttendanceList.java
+    |_ Exercise05SystemSecurityAnalysisSimulator.java
 ```
 
 ## Author
